@@ -19,4 +19,6 @@ function bil_post_types() {
     ));
 }
 
-add_action('init', 'dashicons-schedule');
+add_action('init', 'bil_post_types');
+
+add_theme_support('post-thumbnails');
